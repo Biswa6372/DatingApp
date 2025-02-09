@@ -19,8 +19,10 @@
     "@angular/platform-browser-dynamic": "^18.2.0",
     "@angular/router": "^18.2.0",
     "bootstrap": "^5.3.3",
+    "bootswatch": "^5.3.3",
     "font-awesome": "^4.7.0",
     "ngx-bootstrap": "^18.1.3",
+    "ngx-toastr": "^19.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"
@@ -39,11 +41,11 @@
     "typescript": "~5.5.2"
   },
   "overrides": {
-    "ngx-bootstrap":{
-      "@angular/common":"$@angular/common",
-      "@angular/core":"$@angular/core",
-      "@angular/animations":"$@angular/animations",
-      "@angular/forms":"$@angular/forms"
+    "ngx-bootstrap": {
+      "@angular/common": "$@angular/common",
+      "@angular/core": "$@angular/core",
+      "@angular/animations": "$@angular/animations",
+      "@angular/forms": "$@angular/forms"
     }
   }
 }
